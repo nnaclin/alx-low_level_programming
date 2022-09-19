@@ -6,10 +6,10 @@
    * Returns: length.
    */
 
-int _strlen(char *s)
+size_t _strlen(char *s)
 {
 
-	int len;
+	size_t len;
 
 	for (len = 0; *s != '\0'; ++s)
 		len++;
